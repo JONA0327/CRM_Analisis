@@ -23,8 +23,13 @@ $login = function () {
 ?>
 
 <div>
-    <h2>Iniciar Sesión</h2>
-    <p>Bienvenido de vuelta, ingresa tus credenciales</p>
+    <div class="auth-header">
+        <div class="auth-logo">
+            <!-- Icono médico usando emoji -->
+        </div>
+        <h2 class="auth-title">Iniciar Sesión</h2>
+        <p class="auth-subtitle">Bienvenido de vuelta, ingresa tus credenciales</p>
+    </div>
 
     @if (session('status'))
         <div class="status-message">

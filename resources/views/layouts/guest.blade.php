@@ -21,12 +21,6 @@
         </div>
 
         <div class="auth-container">
-            <div class="auth-logo-container">
-                <a href="/" wire:navigate>
-                    <x-application-logo class="w-20 h-20 fill-current text-white" />
-                </a>
-            </div>
-
             <div class="auth-card">
                 {{ $slot }}
             </div>

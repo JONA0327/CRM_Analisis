@@ -40,8 +40,13 @@ $register = function () {
 ?>
 
 <div>
-    <h2>Crear Cuenta</h2>
-    <p>Únete a nosotros, completa tus datos para comenzar</p>
+    <div class="auth-header">
+        <div class="auth-logo">
+            <!-- Icono médico usando emoji -->
+        </div>
+        <h2 class="auth-title">Crear Cuenta</h2>
+        <p class="auth-subtitle">Únete a nosotros, completa tus datos para comenzar</p>
+    </div>
 
     <form wire:submit="register">
         <div class="form-group">
